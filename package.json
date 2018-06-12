@@ -1,0 +1,16 @@
+{
+  "name": "rocketchat-bot-domain-watcher",
+  "version": "0.0.1",
+  "description": "Watch a domain for DNS changes and send any change alerts to a RocketChat channel.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Elliot <michael@digital.com.au>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "node-dig-dns": "github:michaelelliot/node-dig-dns",
+    "rocketchat-bot": "^1.0.1"
+  }
+}
